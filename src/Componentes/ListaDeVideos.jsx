@@ -1,7 +1,16 @@
 export default function Videos(){
     return(
-        <div>
-            <p>Oi</p>
+        <div class="conteinerDeCards">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            
         </div>
     );
 }

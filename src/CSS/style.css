@@ -1,3 +1,5 @@
+/* CSS do arquivo Nav.jsx */
+
 body{
     height: 100vh;
     @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Teko:wght@300;400;600&display=swap');
@@ -17,7 +19,6 @@ nav.MenuLateral{
     left: 0;
     overflow: hidden;
     transition: .4s;
-    
 }
 
 nav.MenuLateral:hover{
@@ -70,3 +71,24 @@ ul li.ItemMenu a .icone > i{
     margin-left: -34px;
 }
 
+/* Aqui começa o CSS do arquivo ListaDeVideos.jsx */
+
+.conteinerDeCards{
+    display: flex;
+    justify-content: center;
+}
+
+div.card{
+    
+    width: 100px;
+    height: 100px;
+    justify-self: center;
+    background-color: rgb(224, 5, 5);
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 100px;
+ 
+}
+
+h4{
+    font-size: 40px;
+}
