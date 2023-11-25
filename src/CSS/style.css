@@ -3,10 +3,11 @@ body{
     @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Teko:wght@300;400;600&display=swap');
     font-family: 'Teko', sans-serif;
     font-weight: 600;
+    margin: 0;
 }
 
 nav.MenuLateral{
-    width: 50px;
+    width: 60px;
     height: 100%;
     background-color: rgb(12, 1, 31);
     padding: 40px 0 40px 1%;
@@ -16,10 +17,12 @@ nav.MenuLateral{
     left: 0;
     overflow: hidden;
     transition: .4s;
+    
 }
 
 nav.MenuLateral:hover{
     width: 300px;
+    
 }
 
 
@@ -37,16 +40,17 @@ nav.MenuLateral:hover{
 ul{
     height: 100%;
     list-style-type: none ;
+    display: none;
 }
 
 ul li.ItemMenu{
     transition: .5s;
+    opacity: 0.6;
 }
 
 
 ul li.ItemMenu:hover{
-    background: rgb(89, 0, 253);
-    background-size: 100%;
+    opacity: 1;
 }
 
 ul li.ItemMenu a{

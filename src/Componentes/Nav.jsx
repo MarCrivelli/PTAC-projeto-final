@@ -1,7 +1,13 @@
+import React, { useState } from "react";
 export default function Nav(){
+
+    const [menuAberto, deixarMenuAberto] = useState(false);
+    const abrirMenu = () => {
+        deixarMenuAberto(true);
+    }
     return(
         <nav class="MenuLateral">
-            <div class="BotaoDeHamburguer">
+            <div onclick="abrirMenu()" class="BotaoDeHamburguer">
               <i class="bi bi-list"></i>
             </div>
             <ul>
@@ -14,7 +20,7 @@ export default function Nav(){
               <li class="ItemMenu">
                 <a href="#">
                     <span class="icone"><i class="bi bi-graph-up-arrow"></i></span>
-                    <span class="link">Destaque</span>
+                    <span class="link">Destaques</span>
                 </a>
               </li>
               <li class="ItemMenu">
@@ -26,4 +32,5 @@ export default function Nav(){
             </ul>
         </nav>
      );
+     
 }
