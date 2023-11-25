@@ -1,13 +1,8 @@
-import React, { useState } from "react";
 export default function Nav(){
 
-    const [menuAberto, deixarMenuAberto] = useState(false);
-    const abrirMenu = () => {
-        deixarMenuAberto(true);
-    }
     return(
         <nav class="MenuLateral">
-            <div onclick="abrirMenu()" class="BotaoDeHamburguer">
+            <div class="BotaoDeHamburguer">
               <i class="bi bi-list"></i>
             </div>
             <ul>

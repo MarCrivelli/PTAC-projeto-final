@@ -40,7 +40,6 @@ nav.MenuLateral:hover{
 ul{
     height: 100%;
     list-style-type: none ;
-    display: none;
 }
 
 ul li.ItemMenu{

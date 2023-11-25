@@ -1,13 +1,13 @@
 import React from "react";
 import "../src/CSS/style.css";
-import listaVideos from "./Componentes/Videos";
 import Nav from './Componentes/Nav';
+import Videos from './Componentes/ListaDeVideos';
 export default function Home(){
-    const lista = ['1', '2', '3'];
     return(
         <div>
             <Nav/>
-            <listaVideos/>
+            <Videos/>
         </div>
      );
 }
+
