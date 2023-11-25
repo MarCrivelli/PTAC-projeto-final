@@ -1,5 +1,9 @@
 export default function Home(){
     return(
-        <h1>PTAC 2 - PROJETO FINAL</h1>
+        <nav class="MenuLateral">
+            <div class="BotaoDeHamburguer">
+                
+            </div>
+        </nav>
      );
 }
