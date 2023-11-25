@@ -9,7 +9,7 @@ export default function Home(){
               <li class="ItemMenu">
                 <a href="#">
                     <span class="icone"><i class="bi bi-house"></i></span>
-                    <span class="link">Menu Inicial</span>
+                    <span class="link">Início</span>
                 </a>
               </li>
               <li class="ItemMenu">

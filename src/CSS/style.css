@@ -1,4 +1,69 @@
 body{
     height: 100vh;
-    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Teko:wght@300;400;600&display=swap');
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
 }
+
+nav.MenuLateral{
+    width: 50px;
+    height: 100%;
+    background-color: rgb(12, 1, 31);
+    padding: 40px 0 40px 1%;
+    box-shadow: 5px 0 0 rgb(89, 0, 253);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .4s;
+}
+
+nav.MenuLateral:hover{
+    width: 300px;
+}
+
+
+.BotaoDeHamburguer{
+    width: 100%;
+    padding-left: 5%;
+}
+
+.BotaoDeHamburguer > i{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none ;
+}
+
+ul li.ItemMenu{
+    transition: .5s;
+}
+
+
+ul li.ItemMenu:hover{
+    background: rgb(89, 0, 253);
+    background-size: 100%;
+}
+
+ul li.ItemMenu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 40px;
+}
+
+ul li.ItemMenu a .link{
+    margin-left: 30px;
+}
+
+ul li.ItemMenu a .icone > i{
+    font-size: 30px;
+    margin-left: -34px;
+}
+
