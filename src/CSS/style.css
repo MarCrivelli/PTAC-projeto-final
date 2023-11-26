@@ -11,9 +11,9 @@ body{
 nav.MenuLateral{
     width: 60px;
     height: 100%;
-    background-color: rgb(14, 14, 3);
+    background-color: rgb(41, 5, 27);
     padding: 40px 0 40px 1%;
-    box-shadow: 5px 0 0 rgb(251, 255, 0);
+    box-shadow: 5px 0 0 rgb(255, 0, 157);
     position: fixed;
     top: 0;
     left: 0;
@@ -24,17 +24,6 @@ nav.MenuLateral{
 nav.MenuLateral:hover{
     width: 300px;
     
-}
-
-
-.BotaoDeHamburguer{
-    width: 100%;
-}
-
-.BotaoDeHamburguer > i{
-    color: white;
-    font-size: 40px;
-    cursor: pointer;
 }
 
 ul{
