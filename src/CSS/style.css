@@ -8,6 +8,12 @@ body{
     margin: 0;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 nav.menuLateral{
     width: 60px;
     height: 100%;
@@ -47,29 +53,37 @@ ul li.ItemMenu{
 
 ul li.ativo{
     opacity: 1;
+    background-color: rgb(255, 0, 157);
 }
 
+li.ativo i{
+   background-color: rgb(255, 0, 157);
+   padding: 23px 4px 27px 0px;
+   transition: 0.2s;
+}
 
 ul li.ItemMenu:hover{
     opacity: 1;
 }
 
+/*Estiliza as letras dos botões no menu*/
 ul li.ItemMenu a{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px 4%;
+    padding: 20px ;
     display: flex;
     line-height: 40px;
 }
 
+/* controla a distância letras entre os botões do menu e as letras */
 ul li.ItemMenu a .link{
     margin-left: 30px;
 }
 
 ul li.ItemMenu a .icone > i{
     font-size: 30px;
-    margin-left: -34px;
+    margin-left: -10px;
 }
 
 /* Aqui começa o CSS do arquivo ListaDeVideos.jsx */
@@ -79,7 +93,7 @@ ul li.ItemMenu a .icone > i{
     justify-content: center;
     background-color: #0F0F0F;
     height: 100%;
-    margin-left: 4.5%;
+    margin-left: 3%;
     flex-wrap: wrap;
     padding: 0 0 100% 0;
 }

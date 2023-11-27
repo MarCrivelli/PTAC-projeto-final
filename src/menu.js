@@ -1,5 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Seu código JavaScript aqui
+
  
 var menuItem = document.querySelectorAll('.ItemMenu')
 
@@ -27,4 +26,3 @@ botaoExpandir.addEventListener('click', function(){
     menuLateral.classList.toggle('expandir')
 })
 
-});

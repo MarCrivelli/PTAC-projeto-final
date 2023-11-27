@@ -19,7 +19,7 @@ export default function Nav(){    return(
               <li class="ItemMenu">
                 <a href="#">
                     <span class="icone"><i class="bi bi-download"></i></span>
-                    <span class="link">Enviar Vídeo</span>
+                    <span class="link bot">Baixar</span>
                 </a>
               </li>             
             </ul>
