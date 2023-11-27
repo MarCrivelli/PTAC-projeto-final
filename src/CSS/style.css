@@ -21,6 +21,17 @@ nav.MenuLateral{
     transition: .4s;
 }
 
+.botaoDeHamburguer{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.botaoDeHamburguer > i{
+    color: aliceblue;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 nav.MenuLateral:hover{
     width: 300px;
     

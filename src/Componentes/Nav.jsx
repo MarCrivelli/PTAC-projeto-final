@@ -2,6 +2,9 @@ export default function Nav(){
 
     return(
         <nav class="MenuLateral">
+          <div class="botaoDeHamburguer">
+              <i class="bi bi-list"></i>
+          </div>
             <ul>
               <li class="ItemMenu">
                 <a href="#">
