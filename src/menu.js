@@ -1,9 +1,30 @@
-var menuItem = document.querySelectorAll('.itemMenu')
+document.addEventListener('DOMContentLoaded', function () {
+    // Seu código JavaScript aqui
+ 
+var menuItem = document.querySelectorAll('.ItemMenu')
 
-//foreach serve para fazer uma varredura no array
+// A função "selecionarLink" está removendo a classe ativo de um item que não foi clicado e está adicionando a um item clicado
 function selecionarLink(){
+    //foreach serve para fazer uma varredura no array
     menuItem.forEach((item) => 
     //vai remover dinamicamente uma classe de um item
-    item.classList.remove
+    item.classList.remove('ativo')
     )
+    // 
+    this.classList.add('ativo')
 }
+
+menuItem.forEach((item) =>
+//vai ser verificado se o usuário clicou
+  item.addEventListener('click', selecionarLink)
+)
+
+var botaoExpandir = document.querySelector('#botaoExpandir');
+var menuLateral = document.querySelector('.menuLateral');
+
+botaoExpandir.addEventListener('click', function(){
+    //sempre que o botão de hamburguer for clicado, se existir a classe "expandir", ela será removida
+    menuLateral.classList.toggle('expandir')
+})
+
+});

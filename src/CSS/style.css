@@ -8,7 +8,7 @@ body{
     margin: 0;
 }
 
-nav.MenuLateral{
+nav.menuLateral{
     width: 60px;
     height: 100%;
     background-color: rgb(41, 5, 27);
@@ -18,23 +18,21 @@ nav.MenuLateral{
     top: 0;
     left: 0;
     overflow: hidden;
-    transition: .4s;
+    transition: .5s;
 }
 
 .botaoDeHamburguer{
     width: 100%;
-    padding-left: 10px;
 }
 
 .botaoDeHamburguer > i{
     color: aliceblue;
-    font-size: 24px;
+    font-size: 34px;
     cursor: pointer;
 }
 
-nav.MenuLateral:hover{
+nav.menuLateral.expandir{
     width: 300px;
-    
 }
 
 ul{
@@ -45,6 +43,10 @@ ul{
 ul li.ItemMenu{
     transition: .5s;
     opacity: 0.6;
+}
+
+ul li.ativo{
+    opacity: 1;
 }
 
 

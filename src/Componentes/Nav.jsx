@@ -1,12 +1,10 @@
-export default function Nav(){
-
-    return(
-        <nav class="MenuLateral">
+export default function Nav(){    return(
+        <nav class="menuLateral">
           <div class="botaoDeHamburguer">
-              <i class="bi bi-list"></i>
+              <i class="bi bi-list" id="botaoExpandir"></i>
           </div>
             <ul>
-              <li class="ItemMenu">
+              <li class="ItemMenu ativo">
                 <a href="#">
                     <span class="icone"><i class="bi bi-house"></i></span>
                     <span class="link">Início</span>
