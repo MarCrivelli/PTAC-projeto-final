@@ -5,7 +5,7 @@ export default function Nav(){    return(
           </div>
             <ul>
               <li class="ItemMenu ativo">
-                <a href="#">
+                <a href="http://localhost:5173/#">
                     <span class="icone"><i class="bi bi-house"></i></span>
                     <span class="link">Início</span>
                 </a>

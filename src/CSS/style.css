@@ -14,11 +14,12 @@ body{
     box-sizing: border-box;
 }
 
+/*Estiliza todo o menu*/
 nav.menuLateral{
     width: 60px;
     height: 100%;
     background-color: rgb(41, 5, 27);
-    padding: 40px 0 40px 1%;
+    padding: 40px 0 0px 0;
     box-shadow: 5px 0 0 rgb(255, 0, 157);
     position: fixed;
     top: 0;
@@ -27,16 +28,20 @@ nav.menuLateral{
     transition: .5s;
 }
 
+/*Faz com que o botão de hambúrguer ocupe 100% da lateral do menu*/
 .botaoDeHamburguer{
     width: 100%;
 }
 
+/*Estiliza o botão de hambúrguer*/
 .botaoDeHamburguer > i{
     color: aliceblue;
     font-size: 34px;
     cursor: pointer;
 }
 
+/* Diz que quando a classe dos botões do menu forem "expandir, eles
+terão seu tamanho aumentado para 300px"*/
 nav.menuLateral.expandir{
     width: 300px;
 }
@@ -46,22 +51,23 @@ ul{
     list-style-type: none ;
 }
 
+/*Quando os itens do menu não estiverem selecionados (ou com a classe
+"ativo), eles vão ficar levemente transparentes"*/
 ul li.ItemMenu{
     transition: .5s;
     opacity: 0.6;
 }
 
+/*Estiliza o botão no geral quando sua classe for "ativo"*/
 ul li.ativo{
     opacity: 1;
     background-color: rgb(255, 0, 157);
+    transition: .8s;
 }
 
-li.ativo i{
-   background-color: rgb(255, 0, 157);
-   padding: 23px 4px 27px 0px;
-   transition: 0.2s;
-}
 
+/*Diz que ao passar o ponteiro do mouse em cima, a opacidade vai 
+aumentar, ou seja, vai ficar mais visível os botões do menu*/
 ul li.ItemMenu:hover{
     opacity: 1;
 }
@@ -79,6 +85,8 @@ ul li.ItemMenu a{
 /* controla a distância letras entre os botões do menu e as letras */
 ul li.ItemMenu a .link{
     margin-left: 30px;
+    transition: .8s;
+    opacity: 0;
 }
 
 ul li.ItemMenu a .icone > i{
@@ -86,7 +94,26 @@ ul li.ItemMenu a .icone > i{
     margin-left: -10px;
 }
 
+/*Sempre que a Nav menuLateral tiver a classe "expandir", algo acontecerá com o "link"*/
+nav.menuLateral.expandir .link{
+    margin-left: 70px;
+    opacity: 1;
+}
+
+
+
+
+
+
 /* Aqui começa o CSS do arquivo ListaDeVideos.jsx */
+
+
+
+
+
+
+
+
 
 .conteinerDeCards{
     display: flex;
@@ -96,6 +123,19 @@ ul li.ItemMenu a .icone > i{
     margin-left: 3%;
     flex-wrap: wrap;
     padding: 0 0 100% 0;
+}
+
+div.conteinerDeCards h1{
+    color:aliceblue;
+    padding: 40px;
+    margin: 100px;
+    font-size: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 div.card{
