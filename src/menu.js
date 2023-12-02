@@ -1,5 +1,3 @@
-
- 
 var menuItem = document.querySelectorAll('.ItemMenu')
 
 // A função "selecionarLink" está removendo a classe ativo de um item que não foi clicado e está adicionando a um item clicado

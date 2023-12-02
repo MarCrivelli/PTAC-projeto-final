@@ -116,20 +116,18 @@ nav.menuLateral.expandir .link{
 
 
 .conteinerDeCards{
-    display: flex;
-    justify-content: center;
     background-color: #0F0F0F;
     height: 100%;
     margin-left: 3%;
-    flex-wrap: wrap;
-    padding: 0 0 100% 0;
+    padding: 1% 0 100% 0;
 }
 
 div.conteinerDeCards h1{
-    color:aliceblue;
+    color: aliceblue;
     padding: 40px;
     margin: 100px;
-    font-size: 100px;
+    font-size: 60px;
+    text-align: center;
 }
 
 .container{
@@ -170,4 +168,3 @@ p{
 i{
     margin-left: 5px;
 }
-

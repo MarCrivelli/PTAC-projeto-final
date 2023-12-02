@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Nav(){    return(
         <nav class="menuLateral">
           <div class="botaoDeHamburguer">
@@ -5,22 +6,22 @@ export default function Nav(){    return(
           </div>
             <ul>
               <li class="ItemMenu ativo">
-                <a href="http://localhost:5173/#">
+                <Link to="i">
                     <span class="icone"><i class="bi bi-house"></i></span>
                     <span class="link">Início</span>
-                </a>
+                </Link>
               </li>
               <li class="ItemMenu">
-                <a href="#">
+                <Link to="#">
                     <span class="icone"><i class="bi bi-graph-up-arrow"></i></span>
                     <span class="link">Destaques</span>
-                </a>
+                </Link>
               </li>
               <li class="ItemMenu">
-                <a href="#">
+                <Link to="#">
                     <span class="icone"><i class="bi bi-download"></i></span>
                     <span class="link bot">Baixar</span>
-                </a>
+                </Link>
               </li>             
             </ul>
         </nav>
