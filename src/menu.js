@@ -19,3 +19,8 @@ menuItem.forEach((item) =>
 var botaoExpandir = document.querySelector('#botaoExpandir');
 var menuLateral = document.querySelector('.menuLateral');
 
+botaoExpandir.addEventListener('click', function(){
+    //sempre que o botão de hamburguer for clicado, se existir a classe "expandir", ela será removida
+    menuLateral.classList.toggle('expandir')
+})
+

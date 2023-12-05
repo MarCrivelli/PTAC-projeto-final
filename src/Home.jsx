@@ -1,8 +1,9 @@
 import React from "react";
 import "../src/CSS/style.css";
+import "./menu.js";
 import Nav from './Componentes/Nav';
-import Videos from './Componentes/BaixarVideos';
-import "../src/menu.js";
+import Videos from './Componentes/Videos.jsx';
+import "/src/Cadastrar.jsx";
 export default function Home(){
     return(
         <div>

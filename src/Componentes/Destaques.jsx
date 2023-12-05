@@ -1,11 +1,13 @@
 import React from "react";
-import "../src/CSS/style.css";
+import "../Cadastrar"
 import "/src/Cadastrar.jsx";
-import "../src/menu.js";
+import "../menu";
 
 export default function VideosEmDestaque({videoURL}){
-    const listaVideos = JSON.parse(localStorage.getItem('videoURL')) || [];
+    //const listaVideos = JSON.parse(localStorage.getItem('videoURL')) || [];
     return(
-          
+          <div>
+           a
+          </div>
     );
 }

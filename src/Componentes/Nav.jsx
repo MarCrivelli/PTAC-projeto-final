@@ -12,7 +12,7 @@ export default function Nav(){    return(
                 </Link>
               </li>
               <li class="ItemMenu">
-                <Link to="/destaques">
+                <Link to="/VideosEmDestaque">
                     <span class="icone"><i class="bi bi-graph-up-arrow"></i></span>
                     <span class="link">Destaques</span>
                 </Link>
