@@ -6,6 +6,7 @@ body{
     font-family: 'Teko', sans-serif;
     font-weight: 600;
     margin: 0;
+    background-color: #0F0F0F;
 }
 
 *{
@@ -116,7 +117,6 @@ nav.menuLateral.expandir .link{
 
 
 .conteinerDeCards{
-    background-color: #0F0F0F;
     height: 100%;
     margin-left: 3%;
     padding: 1% 0 100% 0;
@@ -167,4 +167,11 @@ p{
 
 i{
     margin-left: 5px;
+}
+
+.nomeLogo{
+    color: aliceblue;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 30px;
 }
