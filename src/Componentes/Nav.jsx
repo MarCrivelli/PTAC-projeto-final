@@ -18,7 +18,7 @@ export default function Nav(){    return(
                 </Link>
               </li>
               <li class="ItemMenu">
-                <Link to="/baixarVideos">
+                <Link to="/Videos">
                     <span class="icone"><i class="bi bi-download"></i></span>
                     <span class="link bot">Baixar</span>
                 </Link>

@@ -16,4 +16,6 @@ menuItem.forEach((item) =>
   item.addEventListener('click', selecionarLink)
 )
 
+var botaoExpandir = document.querySelector('#botaoExpandir');
+var menuLateral = document.querySelector('.menuLateral');
 
